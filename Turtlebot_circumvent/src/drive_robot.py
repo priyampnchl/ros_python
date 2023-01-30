@@ -68,11 +68,9 @@ class Driver():
         yL=self.Y_L
         theta=self.Theta_L
 
-        #implementing the control funciton (1) as given in the assignment prompt
+        #implementing the control funciton
         self.matrix=np.array([[math.cos(math.radians(theta+alpha))+((yL/xL)*math.sin(math.radians(theta+alpha))),(-(math.sin(math.radians(theta+alpha)))+(yL/xL)*math.cos(math.radians(theta+alpha)))],[(1/xL)*math.sin(math.radians(theta+alpha)),(1/xL)*math.cos(math.radians(theta+alpha))]])
-
-        # self.matrix=np.array([[1,2,3],[4,5,6]])
-        # print(type(self.matrix))
+        
         self.AVL_matrix=np.array([[AVL_x],[AVL_y]])
 
         self.resultant_matrix=np.matmul(self.matrix,self.AVL_matrix)#getting v and omega matrix
