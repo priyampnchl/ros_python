@@ -1,5 +1,3 @@
-Assignment 2 ELG 5228 Readme
-
 Dependencies: 
 rospy
 turtlesim
