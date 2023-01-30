@@ -214,28 +214,6 @@ class DriverBhaya():
                 self.pub.publish(self.drive_command)   #publish 
                 self.pub_rate.sleep()
 
-    def comments():
-                # elif self.CCMVENT_DIST < self.telemetry.x <= self.CCMVENT_DIST-self.TOLERANCE:
-                #     self.cicumvent()
-
-                # elif (you are between 0.7 to 0m from obstacle):
-                #     record current position x,y,yaw
-                #     turn left until obstacle to your riht (80<theta<90)
-                    
-                # elif obstacle you are right
-                        
-                # else:
-                #     self.obstacle_reached = True
-                #     self.stop()
-                #     self.define_target()
-
-                # self.circumventing=True
-                # if self.circumventing:
-                #     if not self.finished:
-                #         #circumvent code here
-                # print(self.target_location)
-                pass
-
 if __name__=='__main__':
     driverObj=DriverBhaya()    #instantiate a class object, which will run the stuff in __init__ (SCROLL UP)
     while not rospy.is_shutdown():
