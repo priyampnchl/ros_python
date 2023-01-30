@@ -2,8 +2,6 @@
 import rospy
 from turtlesim.msg import Pose
 
-#if you are reading this it is because my code did not run and I am a terrible programmer, apologies
-
 class TargetPublisherClass():
 
     FREQ=10#Hz
