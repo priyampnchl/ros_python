@@ -9,7 +9,7 @@ from geometry_msgs.msg import Pose
 class LidarBaby():
 
     PUB_FREQ=10# Hz
-    CCMVENT_DIST=1# 1 metres, this is "l" value from the assignment
+    CCMVENT_DIST=1# 1 metres
     MAX_ERROR=0.3# 0.3 metres
     KP=0.2# Proportional Coefficient
 
