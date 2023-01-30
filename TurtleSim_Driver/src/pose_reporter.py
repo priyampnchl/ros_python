@@ -5,7 +5,6 @@ from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
 import math
 
-#if you are reading this it is because my code did not run and I am a terrible programmer, apologies
 
 class poseReporterClass():
 
